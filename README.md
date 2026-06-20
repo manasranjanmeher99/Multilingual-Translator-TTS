@@ -98,19 +98,20 @@ pip install streamlit pandas mtranslate gTTS
 **Input:**
 
 ```text
-Hello
+Hello..
+Good Morning..
 ```
 
 **Language Selected:**
 
 ```text
-Odia
+Hindi
 ```
 
 **Output:**
 
 ```text
-ନମସ୍କାର
+हैलो सुप्रभात...
 ```
 
 ---
