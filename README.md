@@ -1,238 +1,143 @@
-# Multilingual-Translator-TTS
+# 🌐 Multilingual Translator & Text-to-Speech
 
-\# 🌐 Multilingual Translator \& Text-to-Speech
+A professional NLP-based web application built with **Streamlit**, **mTranslate**, and **gTTS** that translates text into multiple languages and converts translated text into speech.
+\
 
+---
 
+## 🚀 Features
 
-A multilingual text translation and text-to-speech web application built with Streamlit, mTranslate, and gTTS. Supports multiple languages, audio generation, translation history, and downloadable translations.
+* 🌍 Translate text into multiple languages
+* 🔍 Search and select target language
+* 🔊 Text-to-Speech (TTS) generation
+* 📥 Download translated text
+* 🎵 Download generated audio
+* 📊 Character and word counter
+* 📜 Translation history tracking
+* 🧹 Clear translation history
+* 🎨 Modern and responsive Streamlit UI
+* 🌐 Odia language translation support
+* ⚡ Fast translation powered by mTranslate
 
-A professional NLP-based web application built using Streamlit that translates text into multiple languages and converts translated text into speech.
+---
 
+## 🖼️ Application Preview
 
+### Home Screen
 
-\## 🚀 Features
+![Home Screen](images/home.png)
 
+### Translation Output
 
+![Translation Output](images/translation_output.png)
 
-\* 🌍 Translate text into multiple languages
+---
 
-\* 🔍 Search and select languages easily
-
-\* 🔊 Text-to-Speech generation
-
-\* 📥 Download generated audio files
-
-\* 📄 Download translated text
-
-\* 📊 Character and word count
-
-\* 📜 Translation history
-
-\* 🧹 Clear translation history
-
-\* 🎨 Modern responsive UI
-
-\* ⚡ Fast translation using mTranslate
-
-\* 🌐 Odia language support (translation)
-
-
-
-\---
-
-
-
-\## 🖼️ Application Preview
-
-
-
-Add your screenshots inside the `images` folder and update the paths below:
-
-
-
-```markdown
-
-!\[Home Screen](images/home.png)
-
-
-
-!\[Translation Output](images/translation\_output.png)
-
-
-
-```
-
-
-
-\---
-
-
-
-\## 📂 Project Structure
-
-
+## 📂 Project Structure
 
 ```text
-
 Multilingual-Translator-TTS/
-
 │
-
 ├── app.py
-
 ├── language.csv
-
 ├── requirements.txt
-
 ├── README.md
-
 │
-
-├── images/
-
-│   ├── home.png
-
-│   ├── translation\_output.png
-
-│   └── audio\_output.png
-
-│
-
-└── lang.mp3
-
+└── images/
+    ├── home.png
+    └── translation_output.png
 ```
 
+---
+
+## 🛠️ Technologies Used
+
+* Python
+* Streamlit
+* Pandas
+* mTranslate
+* gTTS
+
+---
 
 
-\---
-
-
-
-\## 🛠️ Technologies Used
-
-
-
-\* Python
-
-\* Streamlit
-
-\* Pandas
-
-\* mTranslate
-
-\* gTTS
-
-
-
-\---
-
-
-
-
-
-\---
-
-
-
-\## 📋 Requirements
-
-
+## 📦 Requirements
 
 ```text
-
 streamlit
-
 pandas
-
 mtranslate
-
 gTTS
-
 ```
-
-
 
 Install manually:
 
-
-
 ```bash
-
 pip install streamlit pandas mtranslate gTTS
-
 ```
 
+---
 
-
-\---
-
-
-
-\## 🌍 Supported Features
-
-
+## 🌍 Supported Features
 
 | Feature              | Status                    |
-
 | -------------------- | ------------------------- |
-
-| Translation          | ✅                         |
-
+| Text Translation     | ✅                         |
 | Text-to-Speech       | ✅                         |
-
 | Audio Download       | ✅                         |
-
 | Translation Download | ✅                         |
-
 | Translation History  | ✅                         |
-
+| Character Counter    | ✅                         |
+| Word Counter         | ✅                         |
 | Odia Translation     | ✅                         |
+| Odia Audio Output    | ❌ (Not supported by gTTS) |
 
-| Odia Audio           | ❌ (Not supported by gTTS) |
+---
 
+## 📸 Example
 
+**Input:**
 
-\---
+```text
+Hello
+```
 
+**Language Selected:**
 
+```text
+Odia
+```
 
-\## 🔮 Future Enhancements
+**Output:**
 
+```text
+ନମସ୍କାର
+```
 
+---
 
-\* 🎤 Speech-to-Text Input
+## 🔮 Future Enhancements
 
-\* 🤖 Automatic Language Detection
+* 🎤 Speech-to-Text Input
+* 🤖 Automatic Language Detection
+* 🌙 Dark Mode Toggle
+* 🔊 Voice Selection (Male/Female)
+* 📊 Translation Analytics Dashboard
+* ☁️ Streamlit Cloud Deployment
+* 🐳 Docker Support
+* 📁 Export Translation History as CSV
 
-\* 🌙 Dark Mode Toggle
+---
 
-\* 📊 Translation Analytics Dashboard
+## 👨‍💻 Author
 
-\* 🔊 Voice Selection (Male/Female)
+**Manas Ranjan Meher**
 
-\* ☁️ Streamlit Cloud Deployment
+* GitHub: https://github.com/manasranjanmeher99/
+* LinkedIn: https://www.linkedin.com/in/manas-ranjan-meher-606181280/
 
-\* 🐳 Docker Support
+---
 
-\* 📁 Export History as CSV
+## ⭐ Support
 
-
-
-\---
-
-
-
-\## 👨‍💻 Author
-
-
-
-\*\*Manas Ranjan Meher\*\*
-
-
-
-If you found this project useful, consider giving it a ⭐ on GitHub.
-
-
-
-\---
-
+If you found this project useful, consider giving it a **Star ⭐** on GitHub.
